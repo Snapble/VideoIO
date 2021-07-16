@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27D2042F26A1D7CE00D7F9FF /* VideoIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D2042D26A1D7CE00D7F9FF /* VideoIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27D2044626A1D80400D7F9FF /* AssetExportSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043526A1D80400D7F9FF /* AssetExportSession.swift */; };
-		27D2044726A1D80400D7F9FF /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043626A1D80400D7F9FF /* UnfairLock.swift */; };
-		27D2044826A1D80400D7F9FF /* AudioVideoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043726A1D80400D7F9FF /* AudioVideoSettings.swift */; };
-		27D2044926A1D80400D7F9FF /* Camera+FocusExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043826A1D80400D7F9FF /* Camera+FocusExposure.swift */; };
-		27D2044A26A1D80400D7F9FF /* MovieMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043926A1D80400D7F9FF /* MovieMerger.swift */; };
-		27D2044B26A1D80400D7F9FF /* MultitrackMovieRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043A26A1D80400D7F9FF /* MultitrackMovieRecorder.swift */; };
-		27D2044C26A1D80400D7F9FF /* AudioQueueCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043B26A1D80400D7F9FF /* AudioQueueCaptureSession.swift */; };
-		27D2044D26A1D80400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043C26A1D80400D7F9FF /* Camera+AudioQueueCapture.swift */; };
-		27D2044E26A1D80400D7F9FF /* SampleBufferUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043D26A1D80400D7F9FF /* SampleBufferUtilities.swift */; };
-		27D2044F26A1D80400D7F9FF /* AVAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043E26A1D80400D7F9FF /* AVAsset.swift */; };
-		27D2045026A1D80400D7F9FF /* MovieFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043F26A1D80400D7F9FF /* MovieFileType.swift */; };
-		27D2045126A1D80400D7F9FF /* PlayerVideoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044026A1D80400D7F9FF /* PlayerVideoOutput.swift */; };
-		27D2045226A1D80400D7F9FF /* VideoOrientationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044126A1D80400D7F9FF /* VideoOrientationUtilities.swift */; };
-		27D2045326A1D80400D7F9FF /* DeviceOrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044226A1D80400D7F9FF /* DeviceOrientationTracker.swift */; };
-		27D2045426A1D80400D7F9FF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044326A1D80400D7F9FF /* Camera.swift */; };
-		27D2045526A1D80400D7F9FF /* Camera+PhotoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044426A1D80400D7F9FF /* Camera+PhotoCapture.swift */; };
-		27D2045626A1D80400D7F9FF /* VideoComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044526A1D80400D7F9FF /* VideoComposition.swift */; };
+		27D2046026A1DBAC00D7F9FF /* VideoIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D2045E26A1DBAC00D7F9FF /* VideoIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D2046426A1DBD400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043C26A1D80400D7F9FF /* Camera+AudioQueueCapture.swift */; };
+		27D2046526A1DBD400D7F9FF /* PlayerVideoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044026A1D80400D7F9FF /* PlayerVideoOutput.swift */; };
+		27D2046626A1DBD400D7F9FF /* VideoOrientationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044126A1D80400D7F9FF /* VideoOrientationUtilities.swift */; };
+		27D2046726A1DBD400D7F9FF /* VideoComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044526A1D80400D7F9FF /* VideoComposition.swift */; };
+		27D2046826A1DBD400D7F9FF /* DeviceOrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044226A1D80400D7F9FF /* DeviceOrientationTracker.swift */; };
+		27D2046926A1DBD400D7F9FF /* MovieMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043926A1D80400D7F9FF /* MovieMerger.swift */; };
+		27D2046A26A1DBD400D7F9FF /* SampleBufferUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043D26A1D80400D7F9FF /* SampleBufferUtilities.swift */; };
+		27D2046B26A1DBD400D7F9FF /* Camera+FocusExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043826A1D80400D7F9FF /* Camera+FocusExposure.swift */; };
+		27D2046C26A1DBD400D7F9FF /* MultitrackMovieRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043A26A1D80400D7F9FF /* MultitrackMovieRecorder.swift */; };
+		27D2046D26A1DBD400D7F9FF /* AssetExportSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043526A1D80400D7F9FF /* AssetExportSession.swift */; };
+		27D2046E26A1DBD400D7F9FF /* AVAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043E26A1D80400D7F9FF /* AVAsset.swift */; };
+		27D2046F26A1DBD400D7F9FF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044326A1D80400D7F9FF /* Camera.swift */; };
+		27D2047026A1DBD400D7F9FF /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043626A1D80400D7F9FF /* UnfairLock.swift */; };
+		27D2047126A1DBD400D7F9FF /* AudioVideoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043726A1D80400D7F9FF /* AudioVideoSettings.swift */; };
+		27D2047226A1DBD400D7F9FF /* Camera+PhotoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044426A1D80400D7F9FF /* Camera+PhotoCapture.swift */; };
+		27D2047326A1DBD400D7F9FF /* MovieFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043F26A1D80400D7F9FF /* MovieFileType.swift */; };
+		27D2047426A1DBD400D7F9FF /* AudioQueueCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043B26A1D80400D7F9FF /* AudioQueueCaptureSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		27D2041B26A1D79000D7F9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D2041E26A1D79000D7F9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D2042026A1D79000D7F9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27D2042B26A1D7CE00D7F9FF /* VideoIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D2042D26A1D7CE00D7F9FF /* VideoIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoIO.h; sourceTree = "<group>"; };
 		27D2042E26A1D7CE00D7F9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D2043526A1D80400D7F9FF /* AssetExportSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetExportSession.swift; sourceTree = "<group>"; };
@@ -55,10 +54,13 @@
 		27D2044326A1D80400D7F9FF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		27D2044426A1D80400D7F9FF /* Camera+PhotoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Camera+PhotoCapture.swift"; sourceTree = "<group>"; };
 		27D2044526A1D80400D7F9FF /* VideoComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoComposition.swift; sourceTree = "<group>"; };
+		27D2045C26A1DBAC00D7F9FF /* VideoIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D2045E26A1DBAC00D7F9FF /* VideoIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoIO.h; sourceTree = "<group>"; };
+		27D2045F26A1DBAC00D7F9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27D2042826A1D7CE00D7F9FF /* Frameworks */ = {
+		27D2045926A1DBAC00D7F9FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,6 +76,7 @@
 				27D2043326A1D80400D7F9FF /* Sources */,
 				27D2041126A1D78E00D7F9FF /* VideoIO */,
 				27D2042C26A1D7CE00D7F9FF /* VideoIO */,
+				27D2045D26A1DBAC00D7F9FF /* VideoIO */,
 				27D2041026A1D78E00D7F9FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +84,7 @@
 		27D2041026A1D78E00D7F9FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27D2042B26A1D7CE00D7F9FF /* VideoIO.framework */,
+				27D2045C26A1DBAC00D7F9FF /* VideoIO.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,28 +144,37 @@
 			path = VideoIO;
 			sourceTree = "<group>";
 		};
+		27D2045D26A1DBAC00D7F9FF /* VideoIO */ = {
+			isa = PBXGroup;
+			children = (
+				27D2045E26A1DBAC00D7F9FF /* VideoIO.h */,
+				27D2045F26A1DBAC00D7F9FF /* Info.plist */,
+			);
+			path = VideoIO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27D2042626A1D7CE00D7F9FF /* Headers */ = {
+		27D2045726A1DBAC00D7F9FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D2042F26A1D7CE00D7F9FF /* VideoIO.h in Headers */,
+				27D2046026A1DBAC00D7F9FF /* VideoIO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		27D2042A26A1D7CE00D7F9FF /* VideoIO */ = {
+		27D2045B26A1DBAC00D7F9FF /* VideoIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27D2043026A1D7CE00D7F9FF /* Build configuration list for PBXNativeTarget "VideoIO" */;
+			buildConfigurationList = 27D2046126A1DBAC00D7F9FF /* Build configuration list for PBXNativeTarget "VideoIO" */;
 			buildPhases = (
-				27D2042626A1D7CE00D7F9FF /* Headers */,
-				27D2042726A1D7CE00D7F9FF /* Sources */,
-				27D2042826A1D7CE00D7F9FF /* Frameworks */,
-				27D2042926A1D7CE00D7F9FF /* Resources */,
+				27D2045726A1DBAC00D7F9FF /* Headers */,
+				27D2045826A1DBAC00D7F9FF /* Sources */,
+				27D2045926A1DBAC00D7F9FF /* Frameworks */,
+				27D2045A26A1DBAC00D7F9FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,7 +182,7 @@
 			);
 			name = VideoIO;
 			productName = VideoIO;
-			productReference = 27D2042B26A1D7CE00D7F9FF /* VideoIO.framework */;
+			productReference = 27D2045C26A1DBAC00D7F9FF /* VideoIO.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +194,7 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					27D2042A26A1D7CE00D7F9FF = {
+					27D2045B26A1DBAC00D7F9FF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -200,13 +212,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27D2042A26A1D7CE00D7F9FF /* VideoIO */,
+				27D2045B26A1DBAC00D7F9FF /* VideoIO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27D2042926A1D7CE00D7F9FF /* Resources */ = {
+		27D2045A26A1DBAC00D7F9FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,27 +228,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27D2042726A1D7CE00D7F9FF /* Sources */ = {
+		27D2045826A1DBAC00D7F9FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D2044D26A1D80400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */,
-				27D2044926A1D80400D7F9FF /* Camera+FocusExposure.swift in Sources */,
-				27D2044826A1D80400D7F9FF /* AudioVideoSettings.swift in Sources */,
-				27D2044B26A1D80400D7F9FF /* MultitrackMovieRecorder.swift in Sources */,
-				27D2044A26A1D80400D7F9FF /* MovieMerger.swift in Sources */,
-				27D2045226A1D80400D7F9FF /* VideoOrientationUtilities.swift in Sources */,
-				27D2045526A1D80400D7F9FF /* Camera+PhotoCapture.swift in Sources */,
-				27D2045026A1D80400D7F9FF /* MovieFileType.swift in Sources */,
-				27D2044C26A1D80400D7F9FF /* AudioQueueCaptureSession.swift in Sources */,
-				27D2044626A1D80400D7F9FF /* AssetExportSession.swift in Sources */,
-				27D2045626A1D80400D7F9FF /* VideoComposition.swift in Sources */,
-				27D2044726A1D80400D7F9FF /* UnfairLock.swift in Sources */,
-				27D2044E26A1D80400D7F9FF /* SampleBufferUtilities.swift in Sources */,
-				27D2045426A1D80400D7F9FF /* Camera.swift in Sources */,
-				27D2045326A1D80400D7F9FF /* DeviceOrientationTracker.swift in Sources */,
-				27D2044F26A1D80400D7F9FF /* AVAsset.swift in Sources */,
-				27D2045126A1D80400D7F9FF /* PlayerVideoOutput.swift in Sources */,
+				27D2047426A1DBD400D7F9FF /* AudioQueueCaptureSession.swift in Sources */,
+				27D2047326A1DBD400D7F9FF /* MovieFileType.swift in Sources */,
+				27D2046726A1DBD400D7F9FF /* VideoComposition.swift in Sources */,
+				27D2046426A1DBD400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */,
+				27D2046C26A1DBD400D7F9FF /* MultitrackMovieRecorder.swift in Sources */,
+				27D2046A26A1DBD400D7F9FF /* SampleBufferUtilities.swift in Sources */,
+				27D2046926A1DBD400D7F9FF /* MovieMerger.swift in Sources */,
+				27D2047026A1DBD400D7F9FF /* UnfairLock.swift in Sources */,
+				27D2046D26A1DBD400D7F9FF /* AssetExportSession.swift in Sources */,
+				27D2046B26A1DBD400D7F9FF /* Camera+FocusExposure.swift in Sources */,
+				27D2046826A1DBD400D7F9FF /* DeviceOrientationTracker.swift in Sources */,
+				27D2046F26A1DBD400D7F9FF /* Camera.swift in Sources */,
+				27D2047226A1DBD400D7F9FF /* Camera+PhotoCapture.swift in Sources */,
+				27D2046E26A1DBD400D7F9FF /* AVAsset.swift in Sources */,
+				27D2047126A1DBD400D7F9FF /* AudioVideoSettings.swift in Sources */,
+				27D2046526A1DBD400D7F9FF /* PlayerVideoOutput.swift in Sources */,
+				27D2046626A1DBD400D7F9FF /* VideoOrientationUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +390,7 @@
 			};
 			name = Release;
 		};
-		27D2043126A1D7CE00D7F9FF /* Debug */ = {
+		27D2046226A1DBAC00D7F9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +401,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VideoIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -405,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		27D2043226A1D7CE00D7F9FF /* Release */ = {
+		27D2046326A1DBAC00D7F9FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +430,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = VideoIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -444,11 +460,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27D2043026A1D7CE00D7F9FF /* Build configuration list for PBXNativeTarget "VideoIO" */ = {
+		27D2046126A1DBAC00D7F9FF /* Build configuration list for PBXNativeTarget "VideoIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27D2043126A1D7CE00D7F9FF /* Debug */,
-				27D2043226A1D7CE00D7F9FF /* Release */,
+				27D2046226A1DBAC00D7F9FF /* Debug */,
+				27D2046326A1DBAC00D7F9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

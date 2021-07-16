@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "27D2042A26A1D7CE00D7F9FF"
+               BlueprintIdentifier = "27D2045B26A1DBAC00D7F9FF"
                BuildableName = "VideoIO.framework"
                BlueprintName = "VideoIO"
                ReferencedContainer = "container:VideoIO.xcodeproj">
@@ -40,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27D2042A26A1D7CE00D7F9FF"
-            BuildableName = "VideoIO.framework"
-            BlueprintName = "VideoIO"
-            ReferencedContainer = "container:VideoIO.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27D2042A26A1D7CE00D7F9FF"
+            BlueprintIdentifier = "27D2045B26A1DBAC00D7F9FF"
             BuildableName = "VideoIO.framework"
             BlueprintName = "VideoIO"
             ReferencedContainer = "container:VideoIO.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
