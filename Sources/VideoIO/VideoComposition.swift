@@ -63,7 +63,7 @@ public class BlockBasedVideoCompositor: NSObject, VideoCompositorProtocol {
     }
 }
 
-public class VideoComposition<Compositor> where Compositor: VideoCompositorProtocol {
+open class VideoComposition<Compositor> where Compositor: VideoCompositorProtocol {
     public let asset: AVAsset
     
     @available(iOS 11.0, tvOS 11.0, macOS 10.13, *)
