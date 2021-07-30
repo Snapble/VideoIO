@@ -9,9 +9,8 @@ import Foundation
 import AVFoundation
 
 @available(iOS 10.0, macOS 10.15, *)
-@available(tvOS, unavailable)
-@available(macCatalyst 14.0, *)
-public class Camera {
+public class Camera: NSObject {
+    
     public enum Error: Swift.Error {
         case noDeviceFound
         case cannotAddInput
@@ -67,6 +66,7 @@ public class Camera {
         self.captureSession = captureSession
         self.configurator = configurator
         self.defaultCameraPosition = defaultCameraPosition
+        super.init()
     }
     
     public var captureSessionIsRunning: Bool {
@@ -102,17 +102,17 @@ public class Camera {
         if preferredDeviceTypes.count == 0 {
             #if os(macOS)
             deviceTypes = [.builtInWideAngleCamera]
-            #elseif os(tvOS)
-            deviceTypes = []
             #else
             if #available(iOS 13.0, *) {
                 deviceTypes = [.builtInDualWideCamera, .builtInDualCamera, .builtInTrueDepthCamera, .builtInWideAngleCamera]
-            } else if #available(iOS 11.1, *) {
+            }
+//            else if #available(iOS 11.1, *) {
+//                deviceTypes = [.builtInDualCamera, .builtInTrueDepthCamera, .builtInWideAngleCamera]
+//            } else if #available(iOS 10.2, *) {
+//                deviceTypes = [.builtInDualCamera, .builtInWideAngleCamera]
+//            }
+            else {
                 deviceTypes = [.builtInDualCamera, .builtInTrueDepthCamera, .builtInWideAngleCamera]
-            } else if #available(iOS 10.2, *) {
-                deviceTypes = [.builtInDualCamera, .builtInWideAngleCamera]
-            } else {
-                deviceTypes = [.builtInWideAngleCamera]
             }
             #endif
         } else {
@@ -241,6 +241,7 @@ public class Camera {
     
     #if os(iOS)
     
+   
     public var metadataCaptureConnection: AVCaptureConnection? {
         return self.metadataOutput?.connection(with: .metadata)
     }
@@ -281,16 +282,16 @@ public class Camera {
     }
     
     public var isDepthDataOutputSupported: Bool {
-        if #available(iOS 11.0, *) {
-            return self.photoOutput?.isDepthDataDeliverySupported ?? false
-        } else {
-            return false
-        }
+//        if #available(iOS 11.0, *) {
+//            return self.photoOutput?.isDepthDataDeliverySupported ?? false
+//        } else {
+//            return false
+//        }
+        return self.photoOutput?.isDepthDataDeliverySupported ?? false
     }
     
     private var _outputSynchronizer: Any?
     @available(iOS 11.0, *)
-    @available(macCatalyst 14.0, *)
     private var outputSynchronizer: AVCaptureDataOutputSynchronizer? {
         get {
             return _outputSynchronizer as? AVCaptureDataOutputSynchronizer
@@ -301,14 +302,12 @@ public class Camera {
     }
     
     @available(iOS 11.0, *)
-    @available(macCatalyst 14.0, *)
     public var depthCaptureConnection: AVCaptureConnection? {
         return self.depthDataOutput?.connection(with: .depthData)
     }
     
     private var _depthDataOutput: Any?
     @available(iOS 11.0, *)
-    @available(macCatalyst 14.0, *)
     public private(set) var depthDataOutput: AVCaptureDepthDataOutput? {
         get {
             return _depthDataOutput as? AVCaptureDepthDataOutput
@@ -319,7 +318,6 @@ public class Camera {
     }
     
     @available(iOS 11.0, *)
-    @available(macCatalyst 14.0, *)
     public func enableSynchronizedVideoAndDepthDataOutput(on queue: DispatchQueue, delegate: AVCaptureDataOutputSynchronizerDelegate) throws {
         assert(self.videoDataOutput == nil)
         assert(self.outputSynchronizer == nil)
@@ -361,7 +359,6 @@ public class Camera {
     }
     
     @available(iOS 11.0, *)
-    @available(macCatalyst 14.0, *)
     public func disableSynchronizedVideoAndDepthDataOutput() {
         self.captureSession.beginConfiguration()
         

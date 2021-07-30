@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27665C5726B3B1F0009E2901 /* MovieSegmentsRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27665C5426B3B1F0009E2901 /* MovieSegmentsRecorder.swift */; };
+		27665C5826B3B1F0009E2901 /* VideoProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27665C5526B3B1F0009E2901 /* VideoProcessing.swift */; };
+		27665C5926B3B1F0009E2901 /* MovieRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27665C5626B3B1F0009E2901 /* MovieRecorder.swift */; };
+		27665C5C26B3B234009E2901 /* MetalPetal in Frameworks */ = {isa = PBXBuildFile; productRef = 27665C5B26B3B234009E2901 /* MetalPetal */; };
 		27D2046026A1DBAC00D7F9FF /* VideoIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D2045E26A1DBAC00D7F9FF /* VideoIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D2046426A1DBD400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2043C26A1D80400D7F9FF /* Camera+AudioQueueCapture.swift */; };
 		27D2046526A1DBD400D7F9FF /* PlayerVideoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D2044026A1D80400D7F9FF /* PlayerVideoOutput.swift */; };
@@ -28,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27665C5426B3B1F0009E2901 /* MovieSegmentsRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSegmentsRecorder.swift; sourceTree = "<group>"; };
+		27665C5526B3B1F0009E2901 /* VideoProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoProcessing.swift; sourceTree = "<group>"; };
+		27665C5626B3B1F0009E2901 /* MovieRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRecorder.swift; sourceTree = "<group>"; };
 		27D2041226A1D78E00D7F9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27D2041426A1D78E00D7F9FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27D2041626A1D78E00D7F9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27665C5C26B3B234009E2901 /* MetalPetal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +131,9 @@
 		27D2043426A1D80400D7F9FF /* VideoIO */ = {
 			isa = PBXGroup;
 			children = (
+				27665C5626B3B1F0009E2901 /* MovieRecorder.swift */,
+				27665C5426B3B1F0009E2901 /* MovieSegmentsRecorder.swift */,
+				27665C5526B3B1F0009E2901 /* VideoProcessing.swift */,
 				27D2043526A1D80400D7F9FF /* AssetExportSession.swift */,
 				27D2043626A1D80400D7F9FF /* UnfairLock.swift */,
 				27D2043726A1D80400D7F9FF /* AudioVideoSettings.swift */,
@@ -181,6 +192,9 @@
 			dependencies = (
 			);
 			name = VideoIO;
+			packageProductDependencies = (
+				27665C5B26B3B234009E2901 /* MetalPetal */,
+			);
 			productName = VideoIO;
 			productReference = 27D2045C26A1DBAC00D7F9FF /* VideoIO.framework */;
 			productType = "com.apple.product-type.framework";
@@ -208,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 27D2040626A1D78E00D7F9FF;
+			packageReferences = (
+				27665C5A26B3B234009E2901 /* XCRemoteSwiftPackageReference "MetalPetal" */,
+			);
 			productRefGroup = 27D2041026A1D78E00D7F9FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +253,7 @@
 				27D2047326A1DBD400D7F9FF /* MovieFileType.swift in Sources */,
 				27D2046726A1DBD400D7F9FF /* VideoComposition.swift in Sources */,
 				27D2046426A1DBD400D7F9FF /* Camera+AudioQueueCapture.swift in Sources */,
+				27665C5926B3B1F0009E2901 /* MovieRecorder.swift in Sources */,
 				27D2046C26A1DBD400D7F9FF /* MultitrackMovieRecorder.swift in Sources */,
 				27D2046A26A1DBD400D7F9FF /* SampleBufferUtilities.swift in Sources */,
 				27D2046926A1DBD400D7F9FF /* MovieMerger.swift in Sources */,
@@ -244,8 +262,10 @@
 				27D2046B26A1DBD400D7F9FF /* Camera+FocusExposure.swift in Sources */,
 				27D2046826A1DBD400D7F9FF /* DeviceOrientationTracker.swift in Sources */,
 				27D2046F26A1DBD400D7F9FF /* Camera.swift in Sources */,
+				27665C5726B3B1F0009E2901 /* MovieSegmentsRecorder.swift in Sources */,
 				27D2047226A1DBD400D7F9FF /* Camera+PhotoCapture.swift in Sources */,
 				27D2046E26A1DBD400D7F9FF /* AVAsset.swift in Sources */,
+				27665C5826B3B1F0009E2901 /* VideoProcessing.swift in Sources */,
 				27D2047126A1DBD400D7F9FF /* AudioVideoSettings.swift in Sources */,
 				27D2046526A1DBD400D7F9FF /* PlayerVideoOutput.swift in Sources */,
 				27D2046626A1DBD400D7F9FF /* VideoOrientationUtilities.swift in Sources */,
@@ -325,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -393,9 +413,10 @@
 		27D2046226A1DBAC00D7F9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -408,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapble.external.VideoIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -421,9 +443,10 @@
 		27D2046326A1DBAC00D7F9FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -436,6 +459,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.snapble.external.VideoIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -468,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27665C5A26B3B234009E2901 /* XCRemoteSwiftPackageReference "MetalPetal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetalPetal/MetalPetal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27665C5B26B3B234009E2901 /* MetalPetal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27665C5A26B3B234009E2901 /* XCRemoteSwiftPackageReference "MetalPetal" */;
+			productName = MetalPetal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27D2040726A1D78E00D7F9FF /* Project object */;
 }

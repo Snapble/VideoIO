@@ -8,10 +8,9 @@
 import Foundation
 
 @available(iOS 10.0, macOS 10.15, *)
-@available(tvOS, unavailable)
-@available(macOS, unavailable)
-@available(macCatalyst 14.0, *)
 extension Camera {
+    
+    @available(macOS, unavailable)
     public func enableAudioQueueCaptureDataOutput(on queue: DispatchQueue = .main, delegate: AudioQueueCaptureSessionDelegate) throws {
         assert(self.audioDataOutput == nil)
         assert(self.audioQueueCaptureSession == nil)
@@ -20,6 +19,7 @@ extension Camera {
         self.audioQueueCaptureSession = audioQueueCaptureSession
     }
     
+    @available(macOS, unavailable)
     public func enableAudioQueueCaptureDataOutputAsynchronously(on queue: DispatchQueue = .main, delegate: AudioQueueCaptureSessionDelegate, completion: ((Swift.Error?) -> Void)? = nil) {
         assert(self.audioDataOutput == nil)
         assert(self.audioQueueCaptureSession == nil)
@@ -29,7 +29,9 @@ extension Camera {
         })
     }
     
+    @available(macOS, unavailable)
     public func disableAudioQueueCaptureDataOutput() {
+        assert(self.audioQueueCaptureSession != nil)
         if let session = self.audioQueueCaptureSession {
             session.stopAudioRecording()
         }
